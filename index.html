@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portpolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".animation").mousemove(function(event) {
+                var x = event.pageX;
+                var y = event.pageY;
+                $(".tip").css({left: x +10 , top: y - 40}).addClass("on");
+            }).mouseleave(function() {
+                $(".tip").removeClass("on");
+            });
+        });
+    </script>
+    
+</head>
+<body>
+  
+  <a id="1"></a>
+    <header>
+        <div class="header_wrap">
+          <h2>로고이미지</h2>
+          <nav>
+            <ul class="gnb">
+              <button><a href="#1"><img src="img/house.png" width="16px" height="14px"></a></button>
+              <button><a href="#2">I am</a></button>
+              <button><a href="#3">Portfolio</a></button>
+              <button><a href="#4">Message</a></button>
+              <button><a href="#5">contact</a></button>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+         <figure> <a href="index.php?id=work04">
+              <p></p>
+              <figcaption>
+                <div class="line">
+                  <span>
+                    <p>portpolio</p>
+                  </span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        
+        
+         
+          <a id="2" name="2"></a>
+            <div id="black">
+                <h1 id="whiteline">-I am</h1>
+
+                <div class="ability">
+                  <h2>#ability</h2>
+                  <li>· GTQ 1급</li>
+                  <li>· 한글</li>
+                  <li>· 파워포인트</li>
+                </div>
+
+                <div class="education">
+                  <h2>#education</h2>
+                  <li>· 용인고등학교 졸업</li>
+                  <li>· 백석문화대학교<br>
+                  &nbsp;광고 & 마케팅 학과 졸업</li>
+                  <li>· 플러스 컴퓨터 학원<br>
+                  &nbsp;멀티미디어 콘텐츠 제작 과정 수료</li>
+                </div>
+
+                <div  class="animate__animated animate__fadeIn">
+                  <img id="bar"src="img/바.png" width=1610px height="700px"></div>  
+                <div>
+                  <img id="iam"src="img/1am.png" width=1610px height="700px">
+                </div>
+            </div>
+            <a id="3"></a>
+            <div id="black">
+                <h1 id="whiteline">-Portpolio</h1>
+                <section>
+                    <ul>
+                        <li><a href="crystal.html"><img src="img/크리스탈.jpg" class="animation" alt="웹사이트1"></a></li>
+                        <!--<img class="tip" src="img/포폴이미지에커서2.png">-->
+                        
+                        <li><a href="baburu.html"><img src="img/mail.png" class="animation" alt="웹사이트2"></a></li>
+                        
+                        <li><a href="img/토마토.jpg"><img src="img/토마토.jpg" class="animation" alt="상세페이지"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="img/포스터.jpg"><img src="img/포스터.jpg" class="animation" alt="포스터"></a></li>
+                
+                        <li><a href="img/블프배너1.jpg"><img src="img/블프배너1.jpg" class="animation" alt="5배너"></a></li>
+                        
+                        <li><a href="img/눈축제.jpg"><img src="img/snow.png" class="animation" alt="리플렛"></a></li>
+                    </ul>
+                  </section>
+                  </div>
+
+                  <a id="4"></a>
+            <div id="white">
+                <h1 id="blackline">-Message</h1>
+                <div id="Message">
+                  <ul>
+                    <li>좋은 디자인을 하고 싶습니다!</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+
+                  <ol>
+                    <li>감사합니다</li>
+                    <li></li>
+                    <li></li>
+                    <li></li><br>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li><br>
+                  </ol>
+  
+                </div>
+            </div>
+
+            <footer><a id="5"></a>
+                <h1>-Contact</h1>
+                <div id="푸터">
+                    <div id="푸터1">
+                        <p>Thank you for watching!</p>
+                    </div>
+                </div>
+                <div id="icon">
+                    <nav>
+                        <img  class="animate__animated animate__slideInUp"src="img/phone.png" class="animate__animated animate__slideInUp" alt="phone">
+                        <h3>010-5072-6666</h3>
+                    </nav> 
+                    <nav>
+                        <img  class="animate__animated animate__slideInUp"src="img/mail.png" class="animate__animated animate__bounce" alt="mail">
+                        <h3>slmmsk@naver.com</h3>
+                  </div>
+                  <h5>본 사이트는 제 개인 포트폴리오 사이트이며 상업적 목적이 없습니다.<br>
+                    포트폴리오에 사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다.<br>
+                    Copyright © 2023 yiseul Portfolio</h5>
+              </nav>
+            </footer>
+      </div>
+      
+      
+</body>
+</html>
